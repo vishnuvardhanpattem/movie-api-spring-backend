@@ -1,4 +1,4 @@
-"# movies-api-db-spring" 
+
 
 #The project live link after deployed with frontend
 https://movie-api-spring-react.netlify.app/ 
