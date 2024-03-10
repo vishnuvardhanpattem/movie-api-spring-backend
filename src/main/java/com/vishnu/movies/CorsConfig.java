@@ -42,7 +42,7 @@ public class CorsConfig {
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		CorsConfiguration config = new CorsConfiguration();
 		config.addAllowedOrigin("http://localhost:3000");
-		config.addAllowedOrigin("https://splendorous-sundae-37c6f1.netlify.app"); // Remove the trailing slash
+		config.addAllowedOrigin("https://movie-api-spring-react.netlify.app"); // Remove the trailing slash
 		config.addAllowedMethod("*");
 		config.addAllowedHeader("*");
 		source.registerCorsConfiguration("/**", config);
